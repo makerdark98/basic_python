@@ -1,0 +1,5 @@
+f = open('input.txt', 'r')
+a = int(f.readline())
+b = int(f.readline())
+f.close()
+print(a+b)
